@@ -92,3 +92,70 @@ console.log("\nInvitation Message:");
 for (var i = 0; i < guest.length; i++) {
     console.log("Dear ".concat(guest[i], ",\nYou are invited to the dinner. See you soon!\n"));
 }
+// Question 15 : Guest Part 4
+console.log("\nQuestion 15:");
+//sorry message
+console.log("\nWe can only invite two people for dinner, I'm sorry to say that some of you won't be able to join me.");
+// Remove guest from the guest list
+while (guest.length > 2) {
+    var removedGuest = guest.pop();
+    console.log("\nSorry ".concat(removedGuest, " I cant invite you to dinner."));
+}
+// Invitation to the remaining guest
+console.log("\nInvitation Message:");
+for (var i = 0; i < guest.length; i++) {
+    console.log("Dear ".concat(guest[i], ",\nYou are still invited to the dinner. See you soon!\n"));
+}
+// Remove the guests
+guest.pop();
+guest.pop();
+// final list
+console.log("\nThe final guest list is:");
+console.log(guest);
+// Question 16 : Seeing the world
+console.log("\nQuestion 16:");
+var world = ["Italy", "Vatican City", "Paris", "Scotland", "London"];
+console.log("\nOrignal order:");
+for (var i = 0; i < world.length; i++) {
+    console.log("\n".concat(world[i]));
+}
+// sort
+console.log("\nSorted order:");
+for (var i = 0; i < world.length; i++) {
+    console.log("\n".concat(world.slice().sort()[i], "\n"));
+}
+// orignal
+console.log("\nOriginal order (again):");
+for (var i = 0; i < world.length; i++) {
+    console.log("\n".concat(world[i], "\n"));
+}
+// reverse
+console.log("\nReverse alphabet order:");
+for (var i = 0; i < world.length; i++) {
+    console.log("\n".concat(world.slice().sort().reverse()[i], "\n"));
+}
+// orignal
+console.log("\nOriginal order (once again):");
+for (var i = 0; i < world.length; i++) {
+    console.log("\n".concat(world[i], "\n"));
+}
+// Reverse
+console.log("\nReverse order:");
+for (var i = 0; i < world.length; i++) {
+    console.log("\n".concat(world.reverse()[i], "\n"));
+}
+// Reverse
+console.log("\nReverse order (again) /*its back to its orignal state*/ :");
+for (var i = 0; i < world.length; i++) {
+    console.log("\n".concat(world.reverse()[i], "\n"));
+}
+// Alphabetical order
+console.log("\nAplhabetical order (again):");
+for (var i = 0; i < world.length; i++) {
+    console.log("\n".concat(world.sort()[i], "\n"));
+}
+// Alphabetical order reverse
+console.log("\nAlphabetic reverse order:");
+for (var i = 0; i < world.length; i++) {
+    console.log("\n".concat(world.sort().reverse()[i], "\n"));
+}

@@ -1,7 +1,7 @@
 <div align="center">
   
 <img alt="Static Badge" src="https://img.shields.io/badge/typescript-blue?style=for-the-badge&logo=typescript&logoColor=white">
-<img alt="Static Badge" src="https://img.shields.io/badge/javascript-yellow?style=for-the-badge&logo=typescript&logoColor=white">
+<img alt="Static Badge" src="https://img.shields.io/badge/javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white">
 
 </div>
 <h3 align="center">45 Question Project</h3>

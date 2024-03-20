@@ -452,6 +452,7 @@ console.log(`\n`);
 for (let i = 0; i < animal.length; i++) {
     console.log(`A ${animal[i]} is a big cat`);
 }
+<<<<<<< HEAD
 console.log("\nAny of these cats would make a great addition to the zoo");
 // Question 34 : T-Shirt
 console.log(`\nQuestion 34:\n`);
@@ -553,3 +554,6 @@ console.log(my_car);
 console.log(`\n======================================================================================`);
 console.log(`\nThis Program was created by M.Ibbad Roll # 00348484 | day : monday | timing : 7-10 PM\n`);
 console.log(`======================================================================================`);
+=======
+console.log("Any of these cats would make a great addition to the zoo");
+>>>>>>> 6ff3e9f7eb9e1edb89ee46471dc08b104edfbd40

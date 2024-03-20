@@ -642,11 +642,16 @@ for (let i = 0; i < new_users.length; i++) {
 
 console.log(`\nQuestion 31:\n`);
 
+<<<<<<< HEAD
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+=======
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>>>>>> 6ff3e9f7eb9e1edb89ee46471dc08b104edfbd40
 
 for (let i = 0; i < numbers.length; i++) {
   let num = numbers[i];
   if (num === 1) {
+<<<<<<< HEAD
     console.log(`${num}st`);
   } else if (num === 2) {
     console.log(`${num}nd`);
@@ -654,6 +659,15 @@ for (let i = 0; i < numbers.length; i++) {
     console.log(`${num}rd`);
   } else {
     console.log(`${num}th`);
+=======
+    console.log(`${num}st`)
+  } else if (num === 2) {
+    console.log(`${num}nd`)
+  } else if (num === 3) {
+    console.log(`${num}rd`)
+  } else {
+    console.log(`${num}th`)
+>>>>>>> 6ff3e9f7eb9e1edb89ee46471dc08b104edfbd40
   }
 }
 
@@ -666,6 +680,7 @@ let pizza = ["Fajita", "Pepproni", "Chicago"];
 for (let i = 0; i < pizza.length; i++) {
   console.log(`${pizza[i]}`);
 }
+<<<<<<< HEAD
 console.log(`\n`);
 for (let i = 0; i < pizza.length; i++) {
   console.log(`I like ${pizza[i]} pizza`);
@@ -673,6 +688,13 @@ for (let i = 0; i < pizza.length; i++) {
 console.log(
   "\nI Like pizza because it tastes so good\nThe cheese and the tomato sauce just melts in my mouthn\nwith an amazing tender chicken\nit's a delicacy, I love pizza"
 );
+=======
+console.log(`\n`)
+for (let i = 0; i < pizza.length; i++) {
+  console.log(`I like ${pizza[i]} pizza`);
+}
+console.log("\nI Like pizza because it tastes so good\nThe cheese and the tomato sauce just melts in my mouthn\nwith an amazing tender chicken\nit's a delicacy, I love pizza")
+>>>>>>> 6ff3e9f7eb9e1edb89ee46471dc08b104edfbd40
 
 // Question 33
 
@@ -688,6 +710,7 @@ for (let i = 0; i < animal.length; i++) {
   console.log(`A ${animal[i]} is a big cat`);
 }
 
+<<<<<<< HEAD
 console.log("\nAny of these cats would make a great addition to the zoo");
 
 // Question 34 : T-Shirt
@@ -842,3 +865,6 @@ console.log(my_car);
 console.log(`\n======================================================================================`)
 console.log(`\nThis Program was created by M.Ibbad Roll # 00348484 | day : monday | timing : 7-10 PM\n`)
 console.log(`======================================================================================`)
+=======
+console.log("\nAny of these cats would make a great addition to the zoo");
+>>>>>>> 6ff3e9f7eb9e1edb89ee46471dc08b104edfbd40

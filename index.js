@@ -308,35 +308,148 @@ else {
 // Question 25
 console.log(`\nQuestion 25:\n`);
 // green block
-var alien_color = 'green';
-if (alien_color === 'green') {
-    console.log('Player earned 5 points!');
+var alien_color = "green";
+if (alien_color === "green") {
+    console.log("Player earned 5 points!");
 }
-else if (alien_color === 'yellow') {
-    console.log('Player earned 10 points!');
+else if (alien_color === "yellow") {
+    console.log("Player earned 10 points!");
 }
 else {
-    console.log('Player earned 15 points!');
+    console.log("Player earned 15 points!");
 }
 // yellow block
-var alien_color = 'yellow';
-if (alien_color === 'green') {
-    console.log('Player earned 5 points!');
+var alien_color = "yellow";
+if (alien_color === "green") {
+    console.log("Player earned 5 points!");
 }
-else if (alien_color === 'yellow') {
-    console.log('Player earned 10 points!');
+else if (alien_color === "yellow") {
+    console.log("Player earned 10 points!");
 }
 else {
-    console.log('Player earned 15 points!');
+    console.log("Player earned 15 points!");
 }
 // red block
-var alien_color = 'red';
-if (alien_color === 'green') {
-    console.log('Player earned 5 points!');
+var alien_color = "red";
+if (alien_color === "green") {
+    console.log("Player earned 5 points!");
 }
-else if (alien_color === 'yellow') {
-    console.log('Player earned 10 points!');
+else if (alien_color === "yellow") {
+    console.log("Player earned 10 points!");
 }
 else {
-    console.log('Player earned 15 points!');
+    console.log("Player earned 15 points!");
 }
+// Question 26
+console.log(`\nQuestion 26:\n`);
+const age = 68;
+if (age < 2) {
+    console.log("The person is a baby.");
+}
+else if (age >= 2 && age < 4) {
+    console.log("The person is a toddler.");
+}
+else if (age >= 4 && age < 13) {
+    console.log("The person is a kid.");
+}
+else if (age >= 13 && age < 20) {
+    console.log("The person is a teenager.");
+}
+else if (age >= 20 && age < 65) {
+    console.log("The person is an adult.");
+}
+else {
+    console.log("The person is an elder.");
+}
+// Question 27
+console.log(`\nQuestion 27:\n`);
+const favourite_fruit = ["Honeydew", "Mango", "Watermelon"];
+if (favourite_fruit.includes("Honeydew")) {
+    console.log("You like Honeydew!");
+}
+if (favourite_fruit.includes("banana")) {
+    console.log("You like banana!");
+}
+if (favourite_fruit.includes("Watermelon")) {
+    console.log("You like Watermelon!");
+}
+if (favourite_fruit.includes("Mango")) {
+    console.log("You like Mango!");
+}
+if (favourite_fruit.includes("Apricot")) {
+    console.log("You like Apricot!");
+}
+// Question 28 : Hello Admin
+console.log(`\nQuestion 28:\n`);
+const userName = ["Hammad", "Ibrahim", "Ibbad", "Shabbir", "admin"];
+for (let i = 0; i < userName.length; i++) {
+    if (userName[i] === "admin") {
+        console.log("Hello Admin!, would you like to see  a status report?");
+    }
+    else {
+        console.log(`Hello ${userName[i]}!, thank you for logging in again`);
+    }
+}
+//  Question 29
+console.log(`\nQuestion 29:\n`);
+userName.slice().pop();
+userName.slice().pop();
+userName.slice().pop();
+userName.slice().pop();
+userName.slice().pop();
+if (userName.length === 0) {
+    console.log("We need to find some users");
+}
+// Question 30
+console.log(`\nQuestion 30:\n`);
+let usr = ["Ibbad", "Ibrahim", "Fazila", "Ayaan", "ALI"];
+let new_users = ["ibbad", "Hammad", "AHYAAN", "ali"];
+for (let i = 0; i < new_users.length; i++) {
+    let new_username = new_users[i].toLowerCase();
+    if (usr.some((new_users) => new_users.toLowerCase() === new_username)) {
+        console.log(`${new_users[i]}, this username is taken, please enter a new username`);
+    }
+    else {
+        console.log(`${new_users[i]}, this username is available`);
+    }
+}
+// Question 31
+console.log(`\nQuestion 31:\n`);
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i < numbers.length; i++) {
+    let num = numbers[i];
+    if (num === 1) {
+        console.log(`${num}st`);
+    }
+    else if (num === 2) {
+        console.log(`${num}nd`);
+    }
+    else if (num === 3) {
+        console.log(`${num}rd`);
+    }
+    else {
+        console.log(`${num}th`);
+    }
+}
+// Question 32
+console.log(`\nQuestion 32:\n`);
+let pizza = ["Fajita", "Pepproni", "Chicago"];
+for (let i = 0; i < pizza.length; i++) {
+    console.log(`${pizza[i]}`);
+}
+console.log(`\n`);
+for (let i = 0; i < pizza.length; i++) {
+    console.log(`I like ${pizza[i]} pizza`);
+}
+console.log("\nI Like pizza because it tastes so good\nThe cheese and the tomato sauce just melts in my mouthn\nwith an amazing tender chicken\nit's a delicacy, I love pizza");
+// Question 33
+console.log(`\nQuestion 33:\n`);
+let animal = ["Lion", "Tiger", "Leopard"];
+for (let i = 0; i < animal.length; i++) {
+    console.log(`${animal[i]}`);
+}
+console.log(`\n`);
+for (let i = 0; i < animal.length; i++) {
+    console.log(`A ${animal[i]} is a big cat`);
+}
+console.log("Any of these cats would make a great addition to the zoo");

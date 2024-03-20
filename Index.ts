@@ -207,7 +207,7 @@ guest.pop();
 // final list
 
 console.log("\nThe final guest list is:");
-console.log(guest)
+console.log(guest);
 
 // Question 16 : Seeing the world
 
@@ -215,73 +215,340 @@ console.log(`\nQuestion 16:`);
 
 const world = ["Italy", "Vatican City", "Paris", "Scotland", "London"];
 
-console.log(`\nOrignal order:`)
+console.log(`\nOrignal order:`);
 
 for (let i = 0; i < world.length; i++) {
-  console.log(`\n${world[i]}`);
+  console.log(`${world[i]}`);
 }
 
 // sort
 
-console.log("\nSorted order:")
+console.log("\nSorted order:\n");
 
 for (let i = 0; i < world.length; i++) {
-  console.log(`\n${world.slice().sort()[i]}\n`);
+  console.log(`${world.slice().sort()[i]}\n`);
 }
 
 // orignal
 
-console.log("\nOriginal order (again):")
+console.log("\nOriginal order (again):\n");
 
 for (let i = 0; i < world.length; i++) {
-  console.log(`\n${world[i]}\n`);
+  console.log(`${world[i]}\n`);
 }
 
 // reverse
 
-console.log("\nReverse alphabet order:")
+console.log("\nReverse alphabet order:\n");
 
 for (let i = 0; i < world.length; i++) {
-  console.log(`\n${world.slice().sort().reverse()[i]}\n`);
+  console.log(`${world.slice().sort().reverse()[i]}\n`);
 }
 
 // orignal
 
-console.log("\nOriginal order (once again):")
+console.log("\nOriginal order (once again):\n");
 
 for (let i = 0; i < world.length; i++) {
-  console.log(`\n${world[i]}\n`);
+  console.log(`${world[i]}\n`);
 }
 
 // Reverse
 
-console.log("\nReverse order:")
+console.log("\nReverse order:\n");
 
 for (let i = 0; i < world.length; i++) {
-  console.log(`\n${world.reverse()[i]}\n`);
+  console.log(`${world.reverse()[i]}\n`);
 }
 
 // Reverse
 
-console.log("\nReverse order (again) /*its back to its orignal state*/ :")
+console.log("\nReverse order (again) /*its back to its orignal state*/ :\n");
 
 for (let i = 0; i < world.length; i++) {
-  console.log(`\n${world.reverse()[i]}\n`);
+  console.log(`${world.reverse()[i]}\n`);
 }
 
 // Alphabetical order
 
-console.log("\nAplhabetical order (again):")
+console.log("\nAplhabetical order (again):\n");
 
 for (let i = 0; i < world.length; i++) {
-  console.log(`\n${world.sort()[i]}\n`);
+  console.log(`${world.sort()[i]}\n`);
 }
 
 // Alphabetical order reverse
 
-console.log("\nAlphabetic reverse order:")
+console.log("\nAlphabetic reverse order:\n");
 
 for (let i = 0; i < world.length; i++) {
-  console.log(`\n${world.sort().reverse()[i]}\n`);
+  console.log(`${world.sort().reverse()[i]}\n`);
 }
 
+// Question 17
+
+console.log(`\nQuestion 17:`);
+// guest.length is getting the amount of entries in the array "guest", the ans should be 0
+console.log(`\nthe number of guests i am inviting are ${guest.length}`);
+
+// Question 18
+
+console.log(`\nQuestion 18:`);
+
+const carCompany = [
+  "Honda",
+  "Nissan",
+  "Apollo",
+  "Maserati",
+  "Porsche",
+  "BMW",
+  "Bugatti",
+  "Ferrari",
+  "Koenigsegg",
+  "Pagani",
+];
+
+console.log(`\nList of famous car companies\n`);
+
+for (let i = 0; i < carCompany.length; i++) {
+  console.log(`${i + 1}. ${carCompany[i]}`);
+}
+
+// Question 19
+
+console.log(`\nQuestion 19:\n`);
+
+const objectitem = [
+  {
+    Name: "Ibbad",
+    Age: "17",
+    Class: "XI",
+    Institue: "Habib Public High School",
+  },
+];
+
+console.log(
+  `My name is ${objectitem.map(
+    (item) =>
+      `${item.Name}\nI am ${item.Age} years old\nI study in grade ${item.Class} at ${item.Institue} `
+  )}`
+);
+
+// Question 20
+
+// Intentional Error
+
+// console.log(carCompany[20])
+// This is an index error
+
+// Question 21
+
+// True
+
+console.log(`\nQuestion 21:\n`);
+
+const car = "Jesko";
+
+console.log(`is car == 'Jesko'? i predict True`);
+console.log(car === "Jesko");
+
+const color = "orange";
+
+console.log(`is color == 'orange'? i predict True`);
+console.log(color === "orange");
+
+const cpu = "AMD";
+console.log(`is cpu == 'AMD'? i predict True`);
+console.log(cpu === "AMD");
+
+const mount = "K2";
+console.log(`is mount == 'K2'? i predict True`);
+console.log(mount === "K2");
+
+const choclate = "Toblerone";
+console.log(`is choclate == 'Toblerone'? i predict True`);
+console.log(choclate === "Toblerone");
+
+// False
+
+const phone = "iPhone";
+console.log(`is phone == 'iPhone'? i predict False`);
+console.log(phone !== "iPhone");
+
+const card = "CTA";
+console.log(`is card == 'CTA'? i predict False`);
+console.log(card !== "CTA");
+
+const design = "UI";
+console.log(`is design == 'UI'? i predict False`);
+console.log(design !== "UI");
+
+const Mouse = "Logitech";
+console.log(`is Mouse == 'Logitech'? i predict False`);
+console.log(Mouse !== "Logitech");
+
+const Keyboard = "KeyChron";
+console.log(`is Keyboard == 'KeyChron'? i predict False`);
+console.log(Keyboard !== "KeyChron");
+
+// Question 22
+
+console.log(`\nQuestion 22:\n`);
+
+// Test for equality with strings
+
+let str1 = "Str";
+let str2 = "num";
+let str3 = "str";
+let str4 = "str";
+
+// False
+
+console.log(str1 === str2);
+
+// True
+
+console.log(str4 === str3);
+
+// Test for equality with strings using lowercase
+
+console.log(`\nEquality with str using lowercase\n`);
+
+// false
+
+console.log(str1.toLowerCase() === str2.toLowerCase());
+
+// True
+
+console.log(str1.toLowerCase() === str3.toLowerCase());
+
+// Test for equality with numbers
+
+console.log(`\nEquality with numbers\n`);
+
+let num1 = 1;
+let num2 = 2;
+let num3 = 1;
+let num4 = 2;
+
+// False
+console.log(num1 !== num3);
+
+// True
+console.log(num3 !== num2);
+
+// Test for inequality with numbers
+
+console.log(`\ngreater than less than with numbers\n`);
+
+console.log(num1 < num2); // true
+
+console.log(num2 < num1); // false
+
+console.log(num3 <= num2); //true
+
+console.log(num2 <= num3); //false
+
+// And or Operator
+console.log(`\nAND OR operators\n`);
+
+console.log(num1 > num2 && num3 < num4); // false
+console.log(num2 > num1 || num2 < num3); // true
+
+// In an array
+
+console.log(`\nIn an Array\n`);
+
+const colors = ["magenta", "fusica", "grey", "green"];
+
+console.log(colors.includes("magenta")); // true
+
+console.log(colors.includes("purple")); // false
+
+// Not in an array
+
+console.log(`\nNOT in an Array\n`);
+
+console.log(!colors.includes("purple")); // True
+
+console.log(!colors.includes("grey")); // false
+
+// question 23
+
+console.log(`\nQuestion 23:\n`);
+
+var alien_color = "green";
+
+if (alien_color === "green") {
+  console.log("You shot a green alien!\nYou have earned 5 points"); // output = 5 points
+}
+
+var alien_color = "brown"
+
+if (alien_color === "green") {
+  console.log("You shot a green alien!\nYou have earned 5 points"); // no output
+}
+
+// question 24
+
+console.log(`\nQuestion 24:\n`);
+
+// if block
+var alien_color = "red";
+
+if (alien_color === "red") {
+  console.log("You shot a green alien!\nYou have earned 5 points");
+} else {
+  console.log("You shot a blue alien!\nYou have earned 10 points");
+}
+
+// else block
+var alien_color = "blue";
+
+if (alien_color === "green") {
+  console.log("You shot a green alien!\nYou have earned 5 points");
+} else {
+  console.log("You shot a blue alien!\nYou have earned 10 points");
+}
+
+// Question 25
+
+console.log(`\nQuestion 25:\n`);
+
+// green block
+
+var alien_color = 'green';
+
+if (alien_color === 'green') {
+  console.log('Player earned 5 points!');
+} else if (alien_color === 'yellow') {
+  console.log('Player earned 10 points!');
+} else {
+  console.log('Player earned 15 points!');
+}
+
+// yellow block
+
+var alien_color = 'yellow';
+
+if (alien_color === 'green') {
+  console.log('Player earned 5 points!');
+} else if (alien_color === 'yellow') {
+  console.log('Player earned 10 points!');
+} else {
+  console.log('Player earned 15 points!');
+}
+
+// red block
+
+var alien_color = 'red';
+
+if (alien_color === 'green') {
+  console.log('Player earned 5 points!');
+} else if (alien_color === 'yellow') {
+  console.log('Player earned 10 points!');
+} else {
+  console.log('Player earned 15 points!');
+}
+
+// Question 26
